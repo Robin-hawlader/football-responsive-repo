@@ -60,3 +60,25 @@ body{
     width: 300px;
     height: 154px;
 }
+/* copa-america highlights */
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+.flexible{
+    display: flex;
+    width: 84%;
+}
+#article{
+    margin-right: 33px;
+}
+#picture-size{
+    margin-left: 33px;
+}
+.highlights img{
+    width: 567px;
+    height: 427px;
+}
+.highlights{
+    margin-top: 150px;
+}
