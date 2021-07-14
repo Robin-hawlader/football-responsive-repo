@@ -110,9 +110,6 @@ button a{
     .players{
         grid-template-columns: repeat(1,1fr);
     }
-    .container{
-    
-    }
     .header-area, .highlights{
         display: flex;
         flex-direction: column;
