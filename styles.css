@@ -103,3 +103,50 @@ button a{
 .awesome-font a{
     margin: 5px;
 }
+
+/* media for mobile screen  */
+@media only screen and (max-width: 480px) {
+    
+    .players{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .container{
+    
+    }
+    .header-area, .highlights{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner img {
+        width: 329px;
+        height: 259.17px;
+       
+    }
+    .header-text p{
+        font-size: 36px;
+    }
+    .footer-style{
+        width: 100%;
+    }
+    .footer-img img{
+        width: 125.8px;
+        height: 29.98px;
+    }                         
+    .highlights{
+        width: 329px;
+        height: 299px;
+        padding-left: 10px;
+    }
+    .highlights img{
+        width: 325px;
+        height: 299px;
+    }
+    .highlights h2{
+        font-size: 30px;
+    }
+    .flexible{
+        display: flex;
+        flex-direction: column;
+    }  
+}
